@@ -1,4 +1,4 @@
-Pelican |release|
+Chrowler |release|
 =================
 
 
@@ -10,13 +10,11 @@ Pelican |release|
         Were you looking for version |last_stable| documentation?
 
 
-Pelican is a static site generator, written in Python_. Highlights include:
+Chrowler is a web spider, written in Python_ and Javascript_. Highlights include:
 
-* Write your content directly with your editor of choice
-  in reStructuredText_ or Markdown_ formats
-* Includes a simple CLI tool to (re)generate your site
-* Easy to interface with distributed version control systems and web hooks
-* Completely static output is easy to host anywhere
+* Easy installation.
+* Scalable.
+* Extensible with client-side add-ons and service-side plugins.
 
 Ready to get started? Check out the :doc:`Quickstart<quickstart>` guide.
 
