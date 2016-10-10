@@ -21,29 +21,20 @@ Ready to get started? Check out the :doc:`Quickstart<quickstart>` guide.
 Features
 --------
 
-Pelican |version| currently supports:
+Chrowler |version| currently supports:
 
-* Articles (e.g., blog posts) and pages (e.g., "About", "Projects", "Contact")
-* Comments, via an external service (Disqus). If you prefer to have more
-  control over your comment data, self-hosted comments are another option.
-  Check out the `Pelican Plugins`_ repository for more details.
-* Theming support (themes are created using Jinja2_ templates)
-* Publication of articles in multiple languages
-* Atom/RSS feeds
-* Code syntax highlighting
-* Import from WordPress, Dotclear, or RSS feeds
-* Integration with external tools: Twitter, Google Analytics, etc. (optional)
-* Fast rebuild times thanks to content caching and selective output writing
+* Write web crawler with javascript.
+* Scrape web content with JQuery.
 
-Why the name "Pelican"?
+Why the name "Chrowler"?
 -----------------------
 
-"Pelican" is an anagram for *calepin*, which means "notebook" in French. ;)
+"Chrowler" is inspired by Chrome + Crawler
 
 Source code
 -----------
 
-You can access the source code at: https://github.com/getpelican/pelican
+You can access the source code at: https://github.com/iapyeh/chrowler
 
 How to get help, contribute, or provide feedback
 ------------------------------------------------
