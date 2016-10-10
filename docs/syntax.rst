@@ -98,6 +98,11 @@ inline code block
     This makes it possible for users to continue using their favourite markup method
     without needing to install modules for formats they don't use.
 
+inline link
+------------
+
+    You can download this image :download:`here <_static/green.png>`.
+
 table
 ======
 
