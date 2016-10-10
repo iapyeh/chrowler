@@ -17,21 +17,25 @@ Level 1, B
 
 number lists
 
-1. first
-3. third
-4. fourth
-2. second
+    1. first
 
- lists
+    3. third
 
-* item A
+    4. fourth
 
-* item B
+    2. second
 
-* first
-  second line of this item
 
-* second
+lists
+
+    * item A
+
+    * item B
+
+    * first
+      second line of this item
+
+    * second
 
 
 Level 1, C
