@@ -1,7 +1,8 @@
 Syntax Notes
 ###################
 
-Sphinx Online editor `click me <https://livesphinx.herokuapp.com/>`_
+Sphinx Online editor `click me with ``alt`` <https://livesphinx.herokuapp.com/>`_
+
 
 click me |Sphinx_syntax_link|.
 
