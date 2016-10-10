@@ -1,8 +1,6 @@
 Installing Chrowler
 ###################
 
-.. image:: static/green.png
-
 Chrowler currently runs best on lasted Python 2.7.x; earlier versions of
 Python are not supported.
 
