@@ -1,9 +1,14 @@
 Syntax Notes
 ###################
 
-Just for reference, not part of the document of the Chrowler.
+Sphinx Online editor `click me <https://livesphinx.herokuapp.com/>`_
 
-Level 1, A
+`Just for reference <https://livesphinx.herokuapp.com>`_, not part of the document of the Chrowler.
+
+chapter 1
+**********
+
+Section, A
 =========
 
 content of level 1
@@ -12,18 +17,18 @@ content of level 1
     inner block 2nd line
 
 
-Level 1, B
+Section, B
 ===============
 
 number lists
 
-    a. first
+    #. first
 
-    c. third
+    #. third
 
-    d. fourth
+    #. fourth
 
-    b. second
+    #. second
 
 
 lists
@@ -38,25 +43,28 @@ lists
     * second
 
 
-Level 1, C
-========
+Section, C
+============
 
 content of level 1-c
 
-Level 2, C
------------
+Subsection A
+-------------
 
 content of level 2-c
 
-Level 2, C
+Subsection B
 --------------
 
 content of level 2-c
 
-Level 2, C
+Subsection C
 ---------------
 
 content of level 2-c
+
+Chapter 2
+****************
 
 Image
 =====
