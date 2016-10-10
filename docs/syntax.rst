@@ -15,13 +15,19 @@ content of level 1
 Level 1, B
 ===============
 
-lists
+number lists
 
 1. first
 2. second
+#. item A
+#. item B
+
+ lists
 
 #. item A
 #. item B
+1. first
+2. second
 
 
 Level 1, C
