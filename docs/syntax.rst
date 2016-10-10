@@ -130,7 +130,7 @@ article_generator_write_article     article_generator, content     invoked befor
    Avoid ``content_object_init`` signal if you intend to read ``summary``
    or ``content`` properties of the content object. That combination can
    result in unresolved links when :ref:`ref-linking-to-internal-content`
-   (see `pelican-plugins bug #314`_). Use ``_summary`` and ``_content``
+   (see `bug #314`_). Use ``_summary`` and ``_content``
    properties instead, or, alternatively, run your plugin at a later
    stage (e.g. ``all_generators_finalized``).
 
@@ -147,3 +147,5 @@ article_generator_write_article     article_generator, content     invoked befor
    article_generate_preread    article_generator_preread
    pages_generate_context      page_generator_context
    ==========================  ===========================
+
+.. `bug #314`_: http://www.google.com
