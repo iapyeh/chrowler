@@ -6,7 +6,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 sys.path.append(os.path.abspath(os.pardir))
 
-from pelican import __version__
+from chrowler import __version__
 
 # -- General configuration -----------------------------------------------------
 templates_path = ['_templates']
