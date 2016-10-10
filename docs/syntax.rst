@@ -5,6 +5,7 @@ Sphinx Online editor `click me <https://livesphinx.herokuapp.com/>`_
 
 `Just for reference <https://livesphinx.herokuapp.com>`_, not part of the document of the Chrowler.
 
+
 chapter 1
 **********
 
@@ -75,6 +76,15 @@ Click on my |ImageLink|_
 
 .. |ImageLink| image:: static/green.png
 .. _ImageLink: http://www.google.com
+
+Open URL
+=========
+
+You can |location_link|.
+
+.. |location_link| raw:: html
+
+   <a href="http://geoiptool.com" target="_blank">check your location here</a>
 
 
 Code
