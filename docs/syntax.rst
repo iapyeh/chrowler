@@ -3,11 +3,11 @@ Syntax Notes
 
 Sphinx Online editor `click me <https://livesphinx.herokuapp.com/>`_
 
-|Sphinx syntax link|
+click me |Sphinx_syntax_link|.
 
-.. |Sphinx syntax link| raw::html
+.. |Sphinx_syntax_link| raw:: html
 
-    <a href="http://www.sphinx-doc.org/en/stable/rest.html#external-links" target="blank">Sphinx restructure-text syntax</a>
+    <a href="http://www.sphinx-doc.org/en/stable/rest.html#external-links" target="_blank">Sphinx restructure-text syntax</a>
 
 
 chapter 1
