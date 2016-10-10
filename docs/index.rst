@@ -48,6 +48,8 @@ Documentation
    :maxdepth: 2
 
    install
+   daemon
+   scripting
 
 .. Links
 
