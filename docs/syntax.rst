@@ -3,7 +3,11 @@ Syntax Notes
 
 Sphinx Online editor `click me <https://livesphinx.herokuapp.com/>`_
 
-`Just for reference <https://livesphinx.herokuapp.com>`_, not part of the document of the Chrowler.
+|Sphinx syntax link|
+
+.. |Sphinx syntax link| raw::html
+
+    <a href="http://www.sphinx-doc.org/en/stable/rest.html#external-links" target="blank">Sphinx restructure-text syntax</a>
 
 
 chapter 1
