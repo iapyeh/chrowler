@@ -13,21 +13,21 @@ templates_path = ['_templates']
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.ifconfig', 'sphinx.ext.extlinks']
 source_suffix = '.rst'
 master_doc = 'index'
-project = 'Pelican'
-copyright = '2015, Alexis Metaireau and contributors'
+project = 'Chrowler'
+copyright = '2016, Hsin Yuan Yeh'
 exclude_patterns = ['_build']
 release = __version__
 version = '.'.join(release.split('.')[:1])
-last_stable = '3.6.3'
+last_stable = '1.0.0'
 rst_prolog = '''
-.. |last_stable| replace:: :pelican-doc:`{0}`
+.. |last_stable| replace:: :chrowler-doc:`{0}`
 '''.format(last_stable)
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
 extlinks = {
-    'pelican-doc':  ('http://docs.getpelican.com/%s/', '')
+    'chrowler-doc':  ('http://docs.chrowler.com/%s/', '')
 }
 
 # -- Options for HTML output ---------------------------------------------------
@@ -41,10 +41,10 @@ if not on_rtd:
     except ImportError:
         pass
 
-html_static_path = ['_static']
+html_static_path = ['static']
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Pelicandoc'
+htmlhelp_basename = 'Chrowlerdoc'
 
 html_use_smartypants = True
 
@@ -65,16 +65,15 @@ def setup(app):
 
 # -- Options for LaTeX output --------------------------------------------------
 latex_documents = [
-    ('index', 'Pelican.tex', 'Pelican Documentation',
-   'Alexis Métaireau', 'manual'),
+    ('index', 'Chrolwer.tex', 'Chrolwer Documentation','manual'),
 ]
 
 # -- Options for manual page output --------------------------------------------
 man_pages = [
-    ('index', 'pelican', 'pelican documentation',
-     ['Alexis Métaireau'], 1),
-    ('pelican-themes', 'pelican-themes', 'A theme manager for Pelican',
-     ['Mickaël Raybaud'], 1),
-    ('themes', 'pelican-theming', 'How to create themes for Pelican',
-     ['The Pelican contributors'], 1)
+    ('index', 'chrolwer', 'chrolwer documentation',
+     ['Hsin Yuan Yeh'], 1),
+    ('chrolwer-themes', 'chrolwer-themes', 'A theme manager for Chrolwer',
+     ['Hsin Yuan Yeh'], 1),
+    ('themes', 'chrolwer-theming', 'How to create themes for Chrolwer',
+     ['The Chrolwer contributors'], 1)
 ]
