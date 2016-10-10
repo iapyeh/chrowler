@@ -166,4 +166,4 @@ The second file is the ``static/css/style.css`` CSS stylesheet:
     }
 
 
-.. bug #314: http://www.google.com
+.. _bug #314: http://www.google.com
