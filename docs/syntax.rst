@@ -17,13 +17,13 @@ Level 1, B
 
 number lists
 
-    1. first
+    a. first
 
-    3. third
+    c. third
 
-    4. fourth
+    d. fourth
 
-    2. second
+    b. second
 
 
 lists
