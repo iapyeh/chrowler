@@ -50,6 +50,7 @@ Documentation
    install
    daemon
    scripting
+   syntax
 
 .. Links
 
