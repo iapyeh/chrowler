@@ -153,4 +153,17 @@ article_generator_write_article     article_generator, content     invoked befor
    pages_generate_context      page_generator_context
    ==========================  ===========================
 
+
+The second file is the ``static/css/style.css`` CSS stylesheet:
+
+.. code-block:: css
+
+    body {
+        font-family : monospace ;
+        border : thin solid gray ;
+        border-radius : 5px ;
+        display : block ;
+    }
+
+
 .. `bug #314`_: http://www.google.com
