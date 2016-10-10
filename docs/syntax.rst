@@ -17,18 +17,18 @@ Level 1, B
 
 number lists
 
-1. first
-2. second
-#. item A
-#. item B
+# first
+# second
+# item A
+# item B
 
  lists
 
-*. item A
-*. item B
-*. first
-   second line of this item
-*. second
+* item A
+* item B
+* first
+  second line of this item
+* second
 
 
 Level 1, C
@@ -51,6 +51,9 @@ Level 2, C
 
 content of level 2-c
 
+Image
+=====
+
 .. image:: static/green.png
 
 Click on my |ImageLink|_
@@ -59,8 +62,11 @@ Click on my |ImageLink|_
 .. _ImageLink: http://www.google.com
 
 
+Code
+====
 
 a block of code::
+-----------------
 
     class MarkdownReader(BaseReader):
         enabled = bool(Markdown)
@@ -82,6 +88,7 @@ a block of code::
             return content, metadata
 
 inline code block
+------------------
 
     If your new reader requires additional Python dependencies, then you should wrap
     their ``import`` statements in a ``try...except`` block.  Then inside the reader's
@@ -89,3 +96,52 @@ inline code block
     This makes it possible for users to continue using their favourite markup method
     without needing to install modules for formats they don't use.
 
+table
+======
+
+ere is the list of currently implemented signals:
+
+=================================   ============================   ===========================================================================
+Signal                              Arguments                       Description
+=================================   ============================   ===========================================================================
+initialized                         pelican object
+finalized                           pelican object                 invoked after all the generators are executed and just before pelican exits
+                                                                   useful for custom post processing actions, such as:
+                                                                   - minifying js/css assets.
+                                                                   - notify/ping search engines with an updated sitemap.
+generator_init                      generator                      invoked in the Generator.__init__
+all_generators_finalized            generators                     invoked after all the generators are executed and before writing output
+readers_init                        readers                        invoked in the Readers.__init__
+article_generator_context           article_generator, metadata
+article_generator_preread           article_generator              invoked before a article is read in ArticlesGenerator.generate_context;
+                                                                   use if code needs to do something before every article is parsed
+article_generator_init              article_generator              invoked in the ArticlesGenerator.__init__
+article_generator_pretaxonomy       article_generator              invoked before categories and tags lists are created
+                                                                   useful when e.g. modifying the list of articles to be generated
+                                                                   so that removed articles are not leaked in categories or tags
+article_generator_finalized         article_generator              invoked at the end of ArticlesGenerator.generate_context
+article_generator_write_article     article_generator, content     invoked before writing each article, the article is passed as content
+=================================   ============================   ===========================================================================
+
+.. warning::
+
+   Avoid ``content_object_init`` signal if you intend to read ``summary``
+   or ``content`` properties of the content object. That combination can
+   result in unresolved links when :ref:`ref-linking-to-internal-content`
+   (see `pelican-plugins bug #314`_). Use ``_summary`` and ``_content``
+   properties instead, or, alternatively, run your plugin at a later
+   stage (e.g. ``all_generators_finalized``).
+
+.. note::
+
+   After Pelican 3.2, signal names were standardized.  Older plugins
+   may need to be updated to use the new names:
+
+   ==========================  ===========================
+   Old name                    New name
+   ==========================  ===========================
+   article_generate_context    article_generator_context
+   article_generate_finalized  article_generator_finalized
+   article_generate_preread    article_generator_preread
+   pages_generate_context      page_generator_context
+   ==========================  ===========================
