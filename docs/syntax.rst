@@ -17,17 +17,20 @@ Level 1, B
 
 number lists
 
-# first
-# second
-# item A
-# item B
+1. first
+3. third
+4. fourth
+2. second
 
  lists
 
 * item A
+
 * item B
+
 * first
   second line of this item
+
 * second
 
 
@@ -66,7 +69,6 @@ Code
 ====
 
 a block of code::
------------------
 
     class MarkdownReader(BaseReader):
         enabled = bool(Markdown)
