@@ -1,5 +1,5 @@
 Chrowler |release|
-=================
+======================
 
 
 .. ifconfig:: release.endswith('.dev')
@@ -10,7 +10,7 @@ Chrowler |release|
         Were you looking for version |last_stable| documentation?
 
 
-Chrowler is a web spider, written in Python_ and Javascript_. Highlights include:
+Chrowler is a web spider, written in Python_ and Javascript. Highlights include:
 
 * Easy installation.
 * Scalable.
@@ -27,7 +27,7 @@ Chrowler |version| currently supports:
 * Scrape web content with JQuery.
 
 Why the name "Chrowler"?
------------------------
+--------------------------
 
 "Chrowler" is inspired by Chrome + Crawler
 
