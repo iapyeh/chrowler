@@ -5,13 +5,16 @@ Pelican currently runs best on Py
 =================================
 
 thon 2.7.x; earlier versions of Python are not supported. There is provisional support for Python 3.3+, there may be rough edges, particularly with regards to optional ````3rd-party components.
+
 +-------------------------------------------------------------------------------+
 |You can install Pelican via several different methods. The simplest is via pip:|
 +-------------------------------------------------------------------------------+
 
+
 +-------------------+
 |pip install pelican|
 +-------------------+
+
 
 +-------------------------------------------------+
 |.. js:class::  MyAnimal(name[, age])             |
@@ -21,17 +24,20 @@ thon 2.7.x; earlier versions of Python are not supported. There is provisional s
 |:param number age: an optional age for the animal|
 +-------------------------------------------------+
 
+
 +----------------+
 |.. class::      |
 +----------------+
 |content of class|
 +----------------+
 
+
 +------------------+
 |.. caution::      |
 +------------------+
 |content of caution|
 +------------------+
+
 
 
 
@@ -76,6 +82,7 @@ thon 2.7.x; earlier versions of Python are not supported. There is provisional s
 
 (Keep in mind that operating systems will often require you to prefix the above command with sudoin order to install Pelican system-wide.
 #########################################################################################################################################
+
 
 +-----------------------------------------------------------------------------+
 |virtualenv ~/virtualenvs/pelican                                             |
