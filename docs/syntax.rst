@@ -12,14 +12,6 @@ Chrow Client
 
 google chrome extension
 
-+-------------------------------------------------+
-|.. js:class::  MyAnimal(name[, age])             |
-+-------------------------------------------------+
-|:param string name: The name of the animal       |
-+-------------------------------------------------+
-|:param number age: an optional age for the animal|
-+-------------------------------------------------+
-dd
 
 +----------------+
 |.. class::      |
