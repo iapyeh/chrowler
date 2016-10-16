@@ -1,20 +1,12 @@
-Installing Pelican
-##################
+Install Chrowler
+Chrowler Daemon
+===============
 
-Pelican currently runs best on Py
-=================================
+pip install chrowler
+Chrow Client
+============
 
-thon 2.7.x; earlier versions of Python are not supported. There is provisional support for Python 3.3+, there may be rough edges, particularly with regards to optional ````3rd-party components.
-
-+-------------------------------------------------------------------------------+
-|You can install Pelican via several different methods. The simplest is via pip:|
-+-------------------------------------------------------------------------------+
-
-
-+-------------------+
-|pip install pelican|
-+-------------------+
-
+google chrome extension
 
 +-------------------------------------------------+
 |.. js:class::  MyAnimal(name[, age])             |
