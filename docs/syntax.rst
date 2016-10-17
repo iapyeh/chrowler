@@ -11,7 +11,7 @@ Chrow Client with goolgle chrome
 ================================
 
 google chrome extension
-haha thi is test
+
 
 +----------------+
 |.. class::      |
