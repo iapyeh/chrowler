@@ -2,8 +2,8 @@
 Install Chrowler Document
 #########################
 
-Chrowler Daemon
-===============
+Chrowler Daemon with Python
+===========================
 
 pip install chrowler
 
