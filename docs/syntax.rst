@@ -7,8 +7,8 @@ Chrowler Daemon with Python
 
 pip install chrowler
 
-Chrow Client
-============
+Chrow Client with goolgle chrome
+================================
 
 google chrome extension
 haha
