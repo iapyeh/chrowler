@@ -1,9 +1,6 @@
 
-Install Chrowler Documendd
-##########################
-
-Chrowler Daemon with Python and
-===============================
+Install Chrowler DocumenddChrowler Daemon with Python and
+#########################################################
 
 pip install chrowler
 
