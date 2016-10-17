@@ -1,6 +1,6 @@
 
-Install Chrowler Document DONE
-##############################
+Install Chrowler Document
+#########################
 
 Chrowler Daemon with Python
 ===========================
