@@ -1,3 +1,6 @@
+
+origin: http://maplpro.blogspot.tw/2009/12/restructuredtext-inline-image-example.html
+
 .. This is a comment. Note how any initial comments are moved by
    transforms to after the document title, subtitle, and docinfo.
 
