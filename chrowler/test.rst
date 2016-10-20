@@ -12,14 +12,9 @@
 ===============
 
 請利用右上角的選單開始自動測試執行視窗
-
-.. image:: 自動測試/img_1.jpg
-   :height: 308px
-   :width: 293px
-
 執行視窗如下：
 
-.. image:: 自動測試/img_2.jpg
+.. image:: 自動測試/img_1.jpg
    :height: 376px
    :width: 629px
 
